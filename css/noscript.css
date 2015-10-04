@@ -1,0 +1,23 @@
+#features-block .flex-carousel {
+}
+#features-block .flex-carousel li {
+  float: left !important;
+  display: inherit !important;
+}
+#features-block .flex-carousel li:nth-child(n+5) {
+  display: none !important;
+}
+#twitter-noscript {
+  margin:25px 0 0;
+  display:block;	
+}
+
+#twitter-noscript p{
+  font-family:Georgia, "Times New Roman", Times, serif;
+  font-style:italic;
+  font-size:14px;
+}
+
+.panes .pane:last-child, .panes .pane:first-child {
+display:none;
+}
